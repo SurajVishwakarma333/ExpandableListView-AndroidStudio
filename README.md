@@ -55,7 +55,7 @@ Syntax:
               android:id="@+id/simpleExpandableListView"
               android:layout_width="match_parent"
               android:layout_height="fill_parent"
-              android:dividerHeight="1dp" /> "/> <!-- red color divider with 1dp height between the groups items of expandable list view -->
+              android:dividerHeight="1dp" /> <!-- red color divider with 1dp height between the groups items -->
 
 
 
