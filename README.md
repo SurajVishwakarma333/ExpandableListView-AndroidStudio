@@ -124,6 +124,14 @@ Syntax:
               android:dividerHeight="2dp"
               android:childDivider="#0f0"
               android:padding="50dp" /> <!-- 50 dp padding from all the sides of a expandable list view -->
+              
+              
+# In Android for supplying data in an ExpandableListView following adapters are used.
+
+            1. ExpandableListAdapter
+            2. BaseExpandableListAdapter
+            3. SimpleExpandableListAdapter
+ 
 
 
 
