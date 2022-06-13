@@ -23,8 +23,8 @@ Syntax:
 
 
 
-      <ExpandableListView
-                          
+
+      <ExpandableListView  
         android:id="@+id/simpleExpandableListView"   <!-- id of an attribute used to uniquely identify a expandable list view -->
         
         android:layout_width="match_parent"
