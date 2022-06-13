@@ -103,11 +103,15 @@ Syntax:
 
 
 
-paddingRight: set the padding from the right side of the expandable list view.
-paddingLeft: set the padding from the left side of the Progress bar.
-paddingTop: set the padding from the top side of the expandable list view.
-paddingBottom: set the padding from the bottom side of the expandable list view.
-Padding: set the padding from the all side’s of the expandable list view.
+• paddingRight: set the padding from the right side of the expandable list view.
+
+• paddingLeft: set the padding from the left side of the Progress bar.
+
+• paddingTop: set the padding from the top side of the expandable list view.
+
+• paddingBottom: set the padding from the bottom side of the expandable list view.
+
+• Padding: set the padding from the all side’s of the expandable list view.
 
 
 
