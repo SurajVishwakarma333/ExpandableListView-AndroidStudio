@@ -21,7 +21,7 @@ Syntax:
 
 
             <ExpandableListView  
-             android:id="@+id/simpleExpandableListView"   <!-- id of an attribute used to uniquely identify a expandable list view -->
+             android:id="@+id/simpleExpandableListView" <!-- id of an attribute used to uniquely identify a expandable list view -->
              android:layout_width="match_parent"
              android:layout_height="match_parent"/> 
 
@@ -36,7 +36,7 @@ Syntax:
              android:layout_width="match_parent"
              android:layout_height="match_parent"
              android:divider="#f00"   <!-- red color divider -->
-             android:dividerHeight="1dp" /> "/> <!-- red color divider with 1dp height between the groups items of expandable list view -->
+             android:dividerHeight="1dp" /> <!-- red color divider with 1dp height between the groups items of expandable list view -->
         
         
         
