@@ -280,13 +280,13 @@ Step 5: Open src -> package -> MainActivity.Java
         });
         // perform set on child click listener event
         simpleExpandableListView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
-            @Override
-            public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
+          @Override
+          public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
 
-             // display a toast with child name whenever a user clicks on a child item
-             Toast.makeText(getApplicationContext(),"Child Name Is :" + childItems[groupPosition][childPosition],Toast.LENGTH_LONG).show();
-             return false;
-            }
+          // display a toast with child name whenever a user clicks on a child item
+          Toast.makeText(getApplicationContext(),"Child Name Is :" +childItems[groupPosition][childPosition],Toast.LENGTH_LONG).show();
+          return false;
+          }
         });
        }
       }
