@@ -3,14 +3,10 @@ In Android, ExpandableListView is a View that shows items in a vertically scroll
 
 Syntax:
 
-      <ExpandableListView
-      
+      <ExpandableListView      
         android:id="@+id/simpleExpandableListView"
-        
         android:layout_width="match_parent"
-        
         android:layout_height="match_parent" 
-        
       />
 
 
@@ -24,12 +20,10 @@ Syntax:
 
 
 
-      <ExpandableListView  
-        android:id="@+id/simpleExpandableListView"   <!-- id of an attribute used to uniquely identify a expandable list view -->
-        
-        android:layout_width="match_parent"
-        
-        android:layout_height="match_parent"/> 
+            <ExpandableListView  
+             android:id="@+id/simpleExpandableListView"   <!-- id of an attribute used to uniquely identify a expandable list view -->
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"/> 
 
 
 
@@ -37,12 +31,12 @@ Syntax:
 
 
 
-      <ExpandableListView
-        android:id="@+id/simpleExpandableListView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:divider="#f00"   <!-- red color divider -->
-        android:dividerHeight="1dp" /> "/> <!-- red color divider with 1dp height between the groups items of expandable list view -->
+            <ExpandableListView
+             android:id="@+id/simpleExpandableListView"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:divider="#f00"   <!-- red color divider -->
+             android:dividerHeight="1dp" /> "/> <!-- red color divider with 1dp height between the groups items of expandable list view -->
         
         
         
@@ -57,11 +51,11 @@ Syntax:
       
       
       
-      <ExpandableListView
-        android:id="@+id/simpleExpandableListView"
-        android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:dividerHeight="1dp" /> "/> <!-- red color divider with 1dp height between the groups items of expandable list view -->
+            <ExpandableListView
+              android:id="@+id/simpleExpandableListView"
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:dividerHeight="1dp" /> "/> <!-- red color divider with 1dp height between the groups items of expandable list view -->
 
 
 
@@ -74,13 +68,13 @@ Syntax:
    
    
 
-      <ExpandableListView
-        android:id="@+id/simpleExpandableListView"
-        android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:divider="#f00"
-        android:dividerHeight="1dp"
-        android:listSelector="#0f0" /> <!-- green color for the list selector item -->
+            <ExpandableListView
+              android:id="@+id/simpleExpandableListView"
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:divider="#f00"
+              android:dividerHeight="1dp"
+              android:listSelector="#0f0" /> <!-- green color for the list selector item -->
         
         
         
@@ -92,13 +86,13 @@ Syntax:
 
 
 
-      <ExpandableListView
-        android:id="@+id/simpleExpandableListView"
-        android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:divider="#f00"
-        android:dividerHeight="1dp"
-        android:childDivider="#0f0" /> <!-- green color divider between the child items of expandable list view -->
+            <ExpandableListView
+              android:id="@+id/simpleExpandableListView"
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:divider="#f00"
+              android:dividerHeight="1dp"
+              android:childDivider="#0f0" /> <!-- green color divider between the child items of expandable list view -->
         
         
         
@@ -117,14 +111,14 @@ Padding: set the padding from the all side’s of the expandable list view.
 
 
 
-      <ExpandableListView
-        android:id="@+id/simpleExpandableListView"
-        android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:divider="#f00"
-        android:dividerHeight="2dp"
-        android:childDivider="#0f0"
-        android:padding="50dp" /> <!-- 50 dp padding from all the sides of a expandable list view -->
+            <ExpandableListView
+              android:id="@+id/simpleExpandableListView"
+              android:layout_width="match_parent"
+              android:layout_height="fill_parent"
+              android:divider="#f00"
+              android:dividerHeight="2dp"
+              android:childDivider="#0f0"
+              android:padding="50dp" /> <!-- 50 dp padding from all the sides of a expandable list view -->
 
 
 
