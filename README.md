@@ -134,4 +134,24 @@ Syntax:
  
 
 
+# Project Source Code :
 
+Step 1: Create a new project
+
+Step 2: Open res -> layout -> activity_main.xml (or) main.xml and add following code.
+
+
+            <?xml version="1.0" encoding="UTF-8"?>
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical">
+
+            <ExpandableListView
+                android:id="@+id/simpleExpandableListView"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:divider="#f00"
+                android:dividerHeight="1dp" />
+
+             </RelativeLayout>
