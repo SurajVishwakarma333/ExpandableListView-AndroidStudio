@@ -5,6 +5,7 @@ Syntax:
 
       <ExpandableListView
         android:id="@+id/simpleExpandableListView"
+        
         android:layout_width="match_parent"
         android:layout_height="match_parent" 
       />
