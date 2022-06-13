@@ -30,6 +30,8 @@ Syntax:
 2. divider: This is a drawable or color to draw between different group list items.
 
 
+![divider](https://user-images.githubusercontent.com/101108540/173300280-f7c85410-252e-4b55-871b-054622b7fa02.jpg)
+
 
             <ExpandableListView
              android:id="@+id/simpleExpandableListView"
@@ -37,13 +39,6 @@ Syntax:
              android:layout_height="match_parent"
              android:divider="#f00"   <!-- red color divider -->
              android:dividerHeight="1dp" /> <!-- red color divider with 1dp height between the groups items of expandableListView -->
-        
-        
-        
-        
-![divider](https://user-images.githubusercontent.com/101108540/173300280-f7c85410-252e-4b55-871b-054622b7fa02.jpg)
-        
-        
         
 
 
